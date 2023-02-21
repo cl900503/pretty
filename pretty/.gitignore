@@ -1,0 +1,11 @@
+# Maven template
+target/
+
+# Eclipse template
+.settings/
+
+# Eclipse Core
+.project
+
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
