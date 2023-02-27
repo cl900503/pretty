@@ -16,6 +16,7 @@
 		<jackson-databind.version>2.14.2</jackson-databind.version>
 		<jackson-core.version>2.14.2</jackson-core.version>
 		<lombok.version>1.18.26</lombok.version>
+		<jfoenix.version>9.0.10</jfoenix.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -56,6 +57,14 @@
 			<version>${lombok.version}</version>
 			<scope>provided</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.jfoenix/jfoenix -->
+		<!-- JFoenix is an open source Java library, that implements Google Material Design using Java components
+		<dependency>
+			<groupId>com.jfoenix</groupId>
+			<artifactId>jfoenix</artifactId>
+			<version>${jfoenix.version}</version>
+		</dependency>
+		-->
 	</dependencies>
 	<build>
 		<plugins>

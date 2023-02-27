@@ -17,6 +17,9 @@ public class MainController {
 		System.out.println("hello world");
 		String address = mainTextField.getText();
 		System.out.println(address);
+		
+		
+		mainTextArea.setText(address);
 	}
 
 }
